@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+.topnav {
+    overflow: hidden;
+    padding: 15px 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    background: white;
+}
+
+.topnav .logo {
+    width: 10%;
+    height: 5%;
+    float: left;
+    margin-left: 15%;
+}
+
+.topnav .toplink {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10%;
+}
+
+.topnav a {
+    color: #000000;
+    text-align: center;
+    padding: 24px 24px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(252, 133, 133);
+}
+
+.topnav .active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(252, 133, 133);
+}
+
+.content .img-bt21 .banner {
+    background-image: url("../img/Picture2.png");
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    padding: 160px 0;
+    background-position: bottom;
+}
+
+.content .img-bt21 .banner .txt1 {
+    top: 25% !important;
+    left: 10% !important;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.content .img-bt21 .banner .txt2 {
+    top: 35%;
+    left: 15%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.content .img-bt21 .banner img {
+    top: 30%;
+    left: 40%;
+    position: absolute;
+    width: 50%;
+}
+
+.cover-img {
+    width: 30% !important;
+    top: 20% !important;
+    height: 350px;
+    left: 60% !important;
+}
+
+.cover-img1 {
+    width: 35% !important;
+    top: 15% !important;
+    height: 500px;
+    left: 60% !important;
+}
+
+.cover-img2 {
+    width: 37% !important;
+    top: 20% !important;
+    height: 500px;
+    left: 60% !important;
+}
+
+.cover-img3 {
+    top: 25% !important;
+}
+
+.contents {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.frame {
+    display: flex;
+    margin: 2.5%;
+    padding: 5px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    transition: 0.1s;
+    width: 25%;
+    margin: 10px;
+    border: 1px solid rgb(212, 211, 211);
+}
+
+.card .image {
+    width: 100%;
+    height: 255px;
+}
+
+.card .container {
+    width: 100%;
+}
+
+.card .img-bt21 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}

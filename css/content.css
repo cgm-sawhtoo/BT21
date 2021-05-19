@@ -1,0 +1,75 @@
+.container-content {
+    text-align: center;
+    width: 100%;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-bottom: 30px;
+}
+
+.container-content h1 {
+    font-size: 50px;
+    font-weight: 900;
+    padding-left: 10px;
+    color: indianred;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-content iframe {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    height: 600px;
+    border: none;
+}
+
+.contact-grid {
+    width: 100%;
+    display: flex;
+}
+
+.contact-grid .contact-itemleft {
+    width: 70%;
+    margin: 10px;
+    text-align: left;
+}
+
+.contact-grid .contact-itemleft input[type=text],
+select,
+textarea,
+input[type=email] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-top: 10px;
+}
+
+.contact-grid .contact-itemright {
+    width: 30%;
+    margin: 10px;
+    text-align: left;
+    margin-top: 90px;
+}
+
+.input-frame {
+    margin-right: 50px;
+}
+
+.contact-address {
+    padding: 10px;
+    display: flex;
+}
+
+.contact-address .contact-item {
+    padding-top: 15px;
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(93, 95, 93);
+}
+
+.contact-address .address-item {
+    padding-left: 30px;
+}

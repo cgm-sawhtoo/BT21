@@ -1,0 +1,28 @@
+.section-two {
+    background-image: url("../img/main.jpg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 360px;
+}
+
+.section-two::after {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: linear-gradient(rgb(230, 243, 230), rgba(253, 49, 71, 0));
+}
+
+.transparent-bg {
+    background: rgba(144, 151, 146, 0.753);
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    width: 100%;
+    height: 360px;
+}
